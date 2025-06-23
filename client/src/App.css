@@ -1,0 +1,80 @@
+#root {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.header {
+  background-color: var(--color-accent);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-buttons button {
+  background-color: #ffd166;
+  color: #212121;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+}
+
+.card {
+  background-color: var(--color-card);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  max-width: 600px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: var(--color-accent);
+  font-size: 1.8rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.input-field input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}

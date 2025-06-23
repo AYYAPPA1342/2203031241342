@@ -1,0 +1,47 @@
+:root {
+  --font-main: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+  --color-bg: #f4f6fa;
+  --color-bg-dark: #1f2235;
+  --color-card: #ffffff;
+  --color-accent: #4e8cff;
+  --color-accent-hover: #3a6fd9;
+  --color-text: #2c2c2c;
+  --color-muted: #666;
+
+  font-family: var(--font-main);
+  font-size: 16px;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  background-color: var(--color-accent);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: var(--color-accent-hover);
+}
